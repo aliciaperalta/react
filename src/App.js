@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Hola } from './Hola';
+import { Exam } from './exam';
+import { Usuarios } from './Array';
+import { Exercise } from './exercise';
 
 function App() {
   return (
@@ -17,6 +21,11 @@ function App() {
         >
           Learn React
         </a>
+        <p>Hello world</p>
+        <Hola nombre="Alicia" bol={true} />
+        <Exercise />
+        <Exam />
+        <Usuarios />
       </header>
     </div>
   );
